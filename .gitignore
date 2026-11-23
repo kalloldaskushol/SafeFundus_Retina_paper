@@ -1,0 +1,46 @@
+# Local runtime and secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.local/
+.DS_Store
+Thumbs.db
+
+# Manuscripts, writing, document packages, and source datasets
+Dataset/
+datasets/
+data/
+Master Docs/
+Writings for Paper/
+Ref Paper/
+IEEE Format/
+Final Paper*/
+Revised Paper*/
+Citation Traceability Report/
+Diagrams/
+Author information.md
+*.tex
+*.bib
+*.cls
+*.bst
+*.doc
+*.docx
+*.zip
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# Only intentionally selected scientific plots may be PDF outputs.
+*.pdf
+!analysis/figures/*.pdf
