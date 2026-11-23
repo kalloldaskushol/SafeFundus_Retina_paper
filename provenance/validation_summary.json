@@ -9,6 +9,8 @@
   "analysis_archive_rebuilt_from_saved_outputs": true,
   "reproduction_smoke_bootstrap_replicates": 200,
   "reproduction_smoke_completed_with_plots": true,
+  "full_self_contained_notebook_bootstrap_replicates": 10000,
+  "all_20_saved_analysis_csvs_reproduced_byte_for_byte": true,
   "baseline_internal_tables_reproduced_byte_for_byte": true,
   "baseline_external_tables_reproduced_byte_for_byte": true,
   "external_classification_recheck_reproduced_byte_for_byte": true,

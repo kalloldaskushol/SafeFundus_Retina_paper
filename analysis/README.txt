@@ -10,6 +10,9 @@ From the repository root:
   python analysis/run_analysis.py --archive .local/analysis_inputs.zip --output .local/reproduced_analysis --bootstrap 10000
   python analysis/verify_results.py
 
+Full notebook reproduction (all 20 saved CSVs, 10,000 resamples):
+  python analysis/smoke_notebook.py
+
 The saved tables in analysis/tables are the original 10,000-resample outputs.
 The archive rebuilt by the helper contains only previously saved CSV/JSON
 artifacts, not original input images or model weights. Its archive hash differs

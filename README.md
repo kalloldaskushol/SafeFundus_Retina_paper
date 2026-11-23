@@ -64,6 +64,10 @@ python analysis/run_analysis.py --archive .local/analysis_inputs.zip --output .l
 python analysis/verify_results.py
 ```
 
+For a full 10,000-resample check of the self-contained notebook against every
+saved analysis CSV, also run `python analysis/smoke_notebook.py`. Its temporary
+archives, reproduced files and validation report stay under ignored `.local/`.
+
 The temporary input archive is reconstructed from saved outputs already in this
 repository. It is not the original 1.17 GB outer archive, so its archive hash will
 differ even though the scientific input CSV/JSON files are unchanged.
