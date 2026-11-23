@@ -1,0 +1,9 @@
+{
+  "model": "Swin-Tiny",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6818922265886442,
+  "micro_f1": 0.6954356846473029,
+  "mAP": 0.760179478372925,
+  "macro_auroc": 0.9498004140856694
+}

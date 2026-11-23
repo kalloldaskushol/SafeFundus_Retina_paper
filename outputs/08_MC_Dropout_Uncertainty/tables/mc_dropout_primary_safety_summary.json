@@ -1,0 +1,8 @@
+{
+  "closedset_rare_to_normal_rate": 0.2708333333333333,
+  "mc_dropout_post_referral_rare_to_normal_rate": 0.1875,
+  "absolute_reduction": 0.08333333333333331,
+  "relative_reduction": 0.30769230769230765,
+  "mean_unknown_referral_sensitivity": 0.2604166666666667,
+  "mean_familiar_false_referral_rate": 0.0840630472854641
+}

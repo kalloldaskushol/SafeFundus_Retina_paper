@@ -1,0 +1,9 @@
+{
+  "model": "ConvNeXt-Tiny",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6923074468744577,
+  "micro_f1": 0.7126637554585152,
+  "mAP": 0.7565778459405976,
+  "macro_auroc": 0.949796981506335
+}

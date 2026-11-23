@@ -1,0 +1,19 @@
+dataset,seed,method,unknown_n,familiar_n,familiar_referred_n,unknown_referred_n,r2n_n,explicit_normal_n,forced_known_n
+RFMiD,42,Standard JointEnergy,32,571,63,5,7,3,20
+RFMiD,42,Normal-Aware JointEnergy,32,571,54,9,6,3,17
+RFMiD,42,MC Dropout,32,571,62,6,7,3,19
+RFMiD,42,SafeFundus fusion,32,571,59,16,5,3,11
+RFMiD,42,Classifier only,32,571,0,0,7,3,25
+RFMiD 2.0,42,Frozen SafeFundus,50,98,19,25,3,2,22
+RFMiD,123,Standard JointEnergy,32,571,39,9,5,3,18
+RFMiD,123,Normal-Aware JointEnergy,32,571,35,8,5,3,19
+RFMiD,123,MC Dropout,32,571,37,7,4,4,21
+RFMiD,123,SafeFundus fusion,32,571,42,12,3,3,17
+RFMiD,123,Classifier only,32,571,0,0,9,6,23
+RFMiD 2.0,123,Frozen SafeFundus,50,98,19,24,2,1,24
+RFMiD,2026,Standard JointEnergy,32,571,58,4,8,7,20
+RFMiD,2026,Normal-Aware JointEnergy,32,571,48,7,6,5,19
+RFMiD,2026,MC Dropout,32,571,45,12,7,6,13
+RFMiD,2026,SafeFundus fusion,32,571,61,18,5,5,9
+RFMiD,2026,Classifier only,32,571,0,0,10,7,22
+RFMiD 2.0,2026,Frozen SafeFundus,50,98,26,28,1,1,21

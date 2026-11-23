@@ -1,0 +1,193 @@
+dataset,seed,method,metric,actual,archived,absolute_error,tolerance,pass
+RFMiD,42,Standard JointEnergy,familiar_referral,0.11033274956217162,0.1103327495621716,2.7755575615628914e-17,2e-06,True
+RFMiD,42,Standard JointEnergy,normal_referral,0.2537313432835821,0.2537313432835821,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,known_referral,0.06636155606407322,0.0663615560640732,2.7755575615628914e-17,2e-06,True
+RFMiD,42,Standard JointEnergy,unknown_referral,0.15625,0.15625,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,r2n,0.21875,0.21875,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,forced_known,0.625,0.625,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,auroc,0.6450853765323993,0.6450853765323993,0.0,2e-06,True
+RFMiD,42,Standard JointEnergy,aupr,0.09059492954527984,0.0905949295452798,4.163336342344337e-17,2e-06,True
+RFMiD,42,Standard JointEnergy,fpr95,0.7933450087565674,0.7933450087565674,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,familiar_referral,0.09457092819614711,0.0945709281961471,1.3877787807814457e-17,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,normal_referral,0.04477611940298507,0.044776119402985,6.938893903907228e-17,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,known_referral,0.10983981693363844,0.1098398169336384,4.163336342344337e-17,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,unknown_referral,0.28125,0.28125,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,r2n,0.1875,0.1875,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,forced_known,0.53125,0.53125,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,auroc,0.7348949211908933,0.7348949211908933,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,aupr,0.1366986900181968,0.1366986900181968,0.0,2e-06,True
+RFMiD,42,Normal-Aware JointEnergy,fpr95,0.7670753064798599,0.7670753064798599,0.0,2e-06,True
+RFMiD,42,MC Dropout,familiar_referral,0.1085814360770578,0.1085814360770578,0.0,2e-06,True
+RFMiD,42,MC Dropout,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,42,MC Dropout,known_referral,0.14187643020594964,0.1418764302059496,5.551115123125783e-17,2e-06,True
+RFMiD,42,MC Dropout,unknown_referral,0.1875,0.1875,0.0,2e-06,True
+RFMiD,42,MC Dropout,r2n,0.21875,0.21875,0.0,2e-06,True
+RFMiD,42,MC Dropout,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,42,MC Dropout,forced_known,0.59375,0.59375,0.0,2e-06,True
+RFMiD,42,MC Dropout,auroc,0.7289295096322242,0.7289295096322242,0.0,2e-06,True
+RFMiD,42,MC Dropout,aupr,0.13566784796657164,0.1356678479665716,2.7755575615628914e-17,2e-06,True
+RFMiD,42,MC Dropout,fpr95,0.819614711033275,0.819614711033275,0.0,2e-06,True
+RFMiD,42,SafeFundus fusion,familiar_referral,0.10332749562171628,0.1033274956217162,8.326672684688674e-17,2e-06,True
+RFMiD,42,SafeFundus fusion,normal_referral,0.007462686567164179,0.0074626865671641,7.892991815694472e-17,2e-06,True
+RFMiD,42,SafeFundus fusion,known_referral,0.13272311212814644,0.1327231121281464,5.551115123125783e-17,2e-06,True
+RFMiD,42,SafeFundus fusion,unknown_referral,0.5,0.5,0.0,2e-06,True
+RFMiD,42,SafeFundus fusion,r2n,0.15625,0.15625,0.0,2e-06,True
+RFMiD,42,SafeFundus fusion,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,42,SafeFundus fusion,forced_known,0.34375,0.34375,0.0,2e-06,True
+RFMiD,42,SafeFundus fusion,auroc,0.7996935201401051,0.799693520140105,1.1102230246251565e-16,2e-06,True
+RFMiD,42,SafeFundus fusion,aupr,0.20824595360182083,0.2082459536018208,2.7755575615628914e-17,2e-06,True
+RFMiD,42,SafeFundus fusion,fpr95,0.6164623467600701,0.6164623467600701,0.0,2e-06,True
+RFMiD,42,Classifier only,familiar_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,42,Classifier only,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,42,Classifier only,known_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,42,Classifier only,unknown_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,42,Classifier only,r2n,0.21875,0.21875,0.0,2e-06,True
+RFMiD,42,Classifier only,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,42,Classifier only,forced_known,0.78125,0.78125,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,familiar_referral,0.06830122591943957,0.0683012259194395,6.938893903907228e-17,2e-06,True
+RFMiD,123,Standard JointEnergy,normal_referral,0.05970149253731343,0.0597014925373134,3.469446951953614e-17,2e-06,True
+RFMiD,123,Standard JointEnergy,known_referral,0.07093821510297482,0.0709382151029748,2.7755575615628914e-17,2e-06,True
+RFMiD,123,Standard JointEnergy,unknown_referral,0.28125,0.28125,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,r2n,0.15625,0.15625,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,forced_known,0.5625,0.5625,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,auroc,0.7402583187390543,0.7402583187390543,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,aupr,0.1934526882703311,0.1934526882703311,0.0,2e-06,True
+RFMiD,123,Standard JointEnergy,fpr95,0.6514886164623468,0.6514886164623468,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,familiar_referral,0.06129597197898424,0.0612959719789842,4.163336342344337e-17,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,normal_referral,0.022388059701492536,0.0223880597014925,3.469446951953614e-17,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,known_referral,0.07322654462242563,0.0732265446224256,2.7755575615628914e-17,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,unknown_referral,0.25,0.25,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,r2n,0.15625,0.15625,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,forced_known,0.59375,0.59375,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,auroc,0.7687171628721541,0.7687171628721542,1.1102230246251565e-16,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,aupr,0.1988355101234431,0.1988355101234431,0.0,2e-06,True
+RFMiD,123,Normal-Aware JointEnergy,fpr95,0.7513134851138353,0.7513134851138353,0.0,2e-06,True
+RFMiD,123,MC Dropout,familiar_referral,0.0647985989492119,0.0647985989492119,0.0,2e-06,True
+RFMiD,123,MC Dropout,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,123,MC Dropout,known_referral,0.08466819221967964,0.0846681922196796,4.163336342344337e-17,2e-06,True
+RFMiD,123,MC Dropout,unknown_referral,0.21875,0.21875,0.0,2e-06,True
+RFMiD,123,MC Dropout,r2n,0.125,0.125,0.0,2e-06,True
+RFMiD,123,MC Dropout,explicit_normal,0.125,0.125,0.0,2e-06,True
+RFMiD,123,MC Dropout,forced_known,0.65625,0.65625,0.0,2e-06,True
+RFMiD,123,MC Dropout,auroc,0.6610661120840631,0.6610661120840631,0.0,2e-06,True
+RFMiD,123,MC Dropout,aupr,0.12803376153615606,0.1280337615361561,2.7755575615628914e-17,2e-06,True
+RFMiD,123,MC Dropout,fpr95,0.9474605954465849,0.9474605954465848,1.1102230246251565e-16,2e-06,True
+RFMiD,123,SafeFundus fusion,familiar_referral,0.07355516637478109,0.073555166374781,8.326672684688674e-17,2e-06,True
+RFMiD,123,SafeFundus fusion,normal_referral,0.014925373134328358,0.0149253731343283,5.724587470723463e-17,2e-06,True
+RFMiD,123,SafeFundus fusion,known_referral,0.09153318077803203,0.091533180778032,2.7755575615628914e-17,2e-06,True
+RFMiD,123,SafeFundus fusion,unknown_referral,0.375,0.375,0.0,2e-06,True
+RFMiD,123,SafeFundus fusion,r2n,0.09375,0.09375,0.0,2e-06,True
+RFMiD,123,SafeFundus fusion,explicit_normal,0.09375,0.09375,0.0,2e-06,True
+RFMiD,123,SafeFundus fusion,forced_known,0.53125,0.53125,0.0,2e-06,True
+RFMiD,123,SafeFundus fusion,auroc,0.7583187390542907,0.7583187390542907,0.0,2e-06,True
+RFMiD,123,SafeFundus fusion,aupr,0.19818822083153917,0.1981882208315391,5.551115123125783e-17,2e-06,True
+RFMiD,123,SafeFundus fusion,fpr95,0.819614711033275,0.819614711033275,0.0,2e-06,True
+RFMiD,123,Classifier only,familiar_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,123,Classifier only,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,123,Classifier only,known_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,123,Classifier only,unknown_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,123,Classifier only,r2n,0.28125,0.28125,0.0,2e-06,True
+RFMiD,123,Classifier only,explicit_normal,0.1875,0.1875,0.0,2e-06,True
+RFMiD,123,Classifier only,forced_known,0.71875,0.71875,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,familiar_referral,0.10157618213660245,0.1015761821366024,5.551115123125783e-17,2e-06,True
+RFMiD,2026,Standard JointEnergy,normal_referral,0.1791044776119403,0.1791044776119403,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,known_referral,0.07780320366132723,0.0778032036613272,2.7755575615628914e-17,2e-06,True
+RFMiD,2026,Standard JointEnergy,unknown_referral,0.125,0.125,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,r2n,0.25,0.25,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,explicit_normal,0.21875,0.21875,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,forced_known,0.625,0.625,0.0,2e-06,True
+RFMiD,2026,Standard JointEnergy,auroc,0.69034588441331,0.6903458844133099,1.1102230246251565e-16,2e-06,True
+RFMiD,2026,Standard JointEnergy,aupr,0.10124297130439505,0.101242971304395,5.551115123125783e-17,2e-06,True
+RFMiD,2026,Standard JointEnergy,fpr95,0.6777583187390543,0.6777583187390543,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,familiar_referral,0.0840630472854641,0.0840630472854641,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,normal_referral,0.08208955223880597,0.0820895522388059,6.938893903907228e-17,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,known_referral,0.08466819221967964,0.0846681922196796,4.163336342344337e-17,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,unknown_referral,0.21875,0.21875,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,r2n,0.1875,0.1875,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,explicit_normal,0.15625,0.15625,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,forced_known,0.59375,0.59375,0.0,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,auroc,0.719625656742557,0.7196256567425569,1.1102230246251565e-16,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,aupr,0.13721403534496115,0.1372140353449611,5.551115123125783e-17,2e-06,True
+RFMiD,2026,Normal-Aware JointEnergy,fpr95,0.8003502626970228,0.8003502626970228,0.0,2e-06,True
+RFMiD,2026,MC Dropout,familiar_referral,0.07880910683012259,0.0788091068301225,8.326672684688674e-17,2e-06,True
+RFMiD,2026,MC Dropout,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,2026,MC Dropout,known_referral,0.10297482837528604,0.102974828375286,4.163336342344337e-17,2e-06,True
+RFMiD,2026,MC Dropout,unknown_referral,0.375,0.375,0.0,2e-06,True
+RFMiD,2026,MC Dropout,r2n,0.21875,0.21875,0.0,2e-06,True
+RFMiD,2026,MC Dropout,explicit_normal,0.1875,0.1875,0.0,2e-06,True
+RFMiD,2026,MC Dropout,forced_known,0.40625,0.40625,0.0,2e-06,True
+RFMiD,2026,MC Dropout,auroc,0.7043016637478109,0.7043016637478108,1.1102230246251565e-16,2e-06,True
+RFMiD,2026,MC Dropout,aupr,0.20272747193982257,0.2027274719398226,2.7755575615628914e-17,2e-06,True
+RFMiD,2026,MC Dropout,fpr95,0.8178633975481612,0.8178633975481612,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,familiar_referral,0.10683012259194395,0.1068301225919439,5.551115123125783e-17,2e-06,True
+RFMiD,2026,SafeFundus fusion,normal_referral,0.029850746268656716,0.0298507462686567,1.734723475976807e-17,2e-06,True
+RFMiD,2026,SafeFundus fusion,known_referral,0.13043478260869565,0.1304347826086956,5.551115123125783e-17,2e-06,True
+RFMiD,2026,SafeFundus fusion,unknown_referral,0.5625,0.5625,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,r2n,0.15625,0.15625,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,explicit_normal,0.15625,0.15625,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,forced_known,0.28125,0.28125,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,auroc,0.7884194395796849,0.7884194395796849,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,aupr,0.2511068263851437,0.2511068263851437,0.0,2e-06,True
+RFMiD,2026,SafeFundus fusion,fpr95,0.8669001751313485,0.8669001751313485,0.0,2e-06,True
+RFMiD,2026,Classifier only,familiar_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,2026,Classifier only,normal_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,2026,Classifier only,known_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,2026,Classifier only,unknown_referral,0.0,0.0,0.0,2e-06,True
+RFMiD,2026,Classifier only,r2n,0.3125,0.3125,0.0,2e-06,True
+RFMiD,2026,Classifier only,explicit_normal,0.21875,0.21875,0.0,2e-06,True
+RFMiD,2026,Classifier only,forced_known,0.6875,0.6875,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,familiar_referral,0.19387755102040816,0.1938775510204081,5.551115123125783e-17,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,normal_referral,0.07692307692307693,0.0769230769230769,2.7755575615628914e-17,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,known_referral,0.32608695652173914,0.3260869565217391,5.551115123125783e-17,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,unknown_referral,0.5,0.5,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,r2n,0.06,0.06,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,explicit_normal,0.04,0.04,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,forced_known,0.44,0.44,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,auroc,0.7563265306122449,0.7563265306122449,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,aupr,0.5904836526857563,0.5904836526857564,1.1102230246251565e-16,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,fpr95,0.5204081632653061,0.5204081632653061,0.0,2e-06,True
+RFMiD 2.0,42,Frozen SafeFundus,mixed_referral,0.21052631578947367,0.2105263157894736,8.326672684688674e-17,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,familiar_referral,0.19387755102040816,0.1938775510204081,5.551115123125783e-17,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,normal_referral,0.057692307692307696,0.0576923076923076,9.71445146547012e-17,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,known_referral,0.34782608695652173,0.3478260869565217,5.551115123125783e-17,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,unknown_referral,0.48,0.48,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,r2n,0.04,0.04,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,explicit_normal,0.02,0.02,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,forced_known,0.48,0.48,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,auroc,0.7659183673469387,0.7659183673469387,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,aupr,0.5842285653393698,0.5842285653393698,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,fpr95,0.6224489795918368,0.6224489795918368,0.0,2e-06,True
+RFMiD 2.0,123,Frozen SafeFundus,mixed_referral,0.3157894736842105,0.3157894736842105,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,familiar_referral,0.2653061224489796,0.2653061224489796,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,normal_referral,0.07692307692307693,0.0769230769230769,2.7755575615628914e-17,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,known_referral,0.4782608695652174,0.4782608695652174,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,unknown_referral,0.56,0.56,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,r2n,0.02,0.02,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,explicit_normal,0.02,0.02,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,forced_known,0.42,0.42,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,auroc,0.7557142857142858,0.7557142857142857,1.1102230246251565e-16,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,aupr,0.5839086168853709,0.583908616885371,1.1102230246251565e-16,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,fpr95,0.6122448979591837,0.6122448979591837,0.0,2e-06,True
+RFMiD 2.0,2026,Frozen SafeFundus,mixed_referral,0.2631578947368421,0.2631578947368421,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,macro_f1_from_confusion,0.2411281319748139,0.2411281319748139,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,macro_f1_from_probabilities,0.2411281319748139,0.2411281319748139,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,macro_f1_positive_classes,0.2813161539706162,0.2813161539706162,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,micro_f1,0.3559322033898305,0.3559322033898305,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,map_positive_classes,0.4424772363863437,0.4424772363863437,0.0,2e-06,True
+RFMiD 2.0 classification,42,Frozen SafeFundus,macro_auroc_positive_classes,0.8616057165079084,0.8616057165079084,0.0,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,macro_f1_from_confusion,0.240592366154585,0.240592366154585,0.0,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,macro_f1_from_probabilities,0.240592366154585,0.240592366154585,0.0,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,macro_f1_positive_classes,0.28069109384701585,0.2806910938470158,5.551115123125783e-17,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,micro_f1,0.40350877192982454,0.4035087719298245,5.551115123125783e-17,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,map_positive_classes,0.4428755539381548,0.4428755539381548,0.0,2e-06,True
+RFMiD 2.0 classification,123,Frozen SafeFundus,macro_auroc_positive_classes,0.9340261543198286,0.9340261543198288,2.220446049250313e-16,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,macro_f1_from_confusion,0.24122900908615194,0.2412290090861519,2.7755575615628914e-17,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,macro_f1_from_probabilities,0.24122900908615194,0.2412290090861519,2.7755575615628914e-17,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,macro_f1_positive_classes,0.2814338439338439,0.2814338439338439,0.0,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,micro_f1,0.41739130434782606,0.417391304347826,5.551115123125783e-17,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,map_positive_classes,0.3612526895664379,0.3612526895664378,1.1102230246251565e-16,2e-06,True
+RFMiD 2.0 classification,2026,Frozen SafeFundus,macro_auroc_positive_classes,0.8678746753645857,0.8678746753645856,1.1102230246251565e-16,2e-06,True

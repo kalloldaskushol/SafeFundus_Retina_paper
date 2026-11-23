@@ -1,0 +1,19 @@
+{
+  "model": "ConvNeXt-Tiny",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6923074468744577,
+  "micro_f1": 0.7126637554585152,
+  "mAP": 0.7565778459405976,
+  "macro_auroc": 0.949796981506335,
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 9,
+  "rare_to_normal_error_rate": 0.28125,
+  "unknown_forced_into_known_rate": 0.71875,
+  "best_history_epoch": 19,
+  "train_mAP_at_best_val": 0.9988696686376147,
+  "val_mAP_at_best_val": 0.711370227100983,
+  "mAP_generalization_gap": 0.28749944153663176,
+  "best_epoch": 19,
+  "best_validation_mAP": 0.711370227100983
+}

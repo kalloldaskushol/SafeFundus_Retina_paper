@@ -1,0 +1,15 @@
+{
+  "project": "SafeFundus",
+  "classifier": "Swin-Tiny + ASL + explicit NORMAL output",
+  "open_set_component_1": "Normal-Aware Dual-Mode JointEnergy",
+  "open_set_component_2": "20-pass prediction-head MC Dropout variance",
+  "jointenergy_final_normalization": "z-score on complete familiar validation set after dual-mode score",
+  "mc_dropout_normalization": "z-score on familiar validation set from Notebook 08",
+  "fusion": "R = 0.5 * J_N + 0.5 * U_N",
+  "fusion_weight_tuned_on_test": false,
+  "primary_referral_threshold": "90th percentile of familiar validation fusion score",
+  "primary_validation_false_referral_target": 0.1,
+  "temperature_scaling": "single scalar T per seed fitted on familiar validation logits",
+  "temperature_affects_open_set_score": false,
+  "unknown_test_used_for_tuning": false
+}

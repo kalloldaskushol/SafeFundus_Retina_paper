@@ -1,0 +1,7 @@
+{
+  "model": "EfficientNet-B0",
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 10,
+  "rare_to_normal_error_rate": 0.3125,
+  "unknown_forced_into_known_rate": 0.6875
+}

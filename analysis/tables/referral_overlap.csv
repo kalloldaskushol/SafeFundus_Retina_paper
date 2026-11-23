@@ -1,0 +1,4 @@
+seed,unknown_n,energy_referrals,mc_referrals,intersection,energy_only,mc_only,union,fusion_referrals,fusion_outside_union,union_not_fusion
+42,32,9,6,3,6,3,12,16,5,1
+123,32,8,7,3,5,4,12,12,2,2
+2026,32,7,12,3,4,9,16,18,3,1

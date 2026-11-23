@@ -1,0 +1,19 @@
+{
+  "model": "Swin-Tiny",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6818922265886442,
+  "micro_f1": 0.6954356846473029,
+  "mAP": 0.760179478372925,
+  "macro_auroc": 0.9498004140856694,
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 7,
+  "rare_to_normal_error_rate": 0.21875,
+  "unknown_forced_into_known_rate": 0.78125,
+  "best_history_epoch": 19,
+  "train_mAP_at_best_val": 0.9533312467246773,
+  "val_mAP_at_best_val": 0.7453394785196477,
+  "mAP_generalization_gap": 0.20799176820502963,
+  "best_epoch": 19,
+  "best_validation_mAP": 0.7453394785196477
+}

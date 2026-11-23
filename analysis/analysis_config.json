@@ -1,0 +1,24 @@
+{
+  "archive_name": "Models After Run-20260824T080902Z-1-001.zip",
+  "archive_sha256": "7ef4a4d93fce146c9d7299b6c5589935c8fdadda41815b413d389e5035dc8b68",
+  "bootstrap_replicates": 10000,
+  "bootstrap_rng_seed": 20261121,
+  "model_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "bootstrap_estimand": "Mean metric of the three fixed models; paired image sampling shared across seeds and methods.",
+  "bootstrap_familiar_sampling": "Stratified by Normal/Known_Only with observed subgroup sizes fixed.",
+  "bootstrap_unknown_sampling": "32 internal or 50 external unique image IDs sampled with replacement; models are not independent cohorts.",
+  "bootstrap_interval": "Percentile 2.5/97.5%; conditional on models and original validation calibration; does not capture retraining or calibration uncertainty.",
+  "matched_threshold": "Retrospective familiar-test order statistic with strict score > threshold; at most floor(q*n) familiar referrals. Unknown labels never select threshold.",
+  "matched_bootstrap": "Recompute retrospective threshold in each familiar-test bootstrap resample and evaluate paired unknown resample.",
+  "fusion_analysis": "Post hoc sensitivity only; original equal weight and original frozen external evaluation retained.",
+  "validation_threshold": "np.quantile(validation_score,0.90,method=linear), strict > comparison.",
+  "numerical_audit_checks": 192,
+  "all_audit_checks_passed": true,
+  "python": "3.12.13",
+  "numpy": "2.5.5",
+  "pandas": "3.0.1"
+}

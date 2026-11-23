@@ -1,0 +1,4 @@
+seed,unknown_cases,jointenergy_referred,mc_dropout_referred,jointenergy_and_mc_intersection,jointenergy_only,mc_dropout_only,union_joint_or_mc,fusion_referred
+42,32,9,6,3,6,3,12,16
+123,32,8,7,3,5,4,12,12
+2026,32,7,12,3,4,9,16,18

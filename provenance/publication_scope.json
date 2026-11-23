@@ -1,0 +1,26 @@
+{
+  "scope": "Scientific code, executed notebook outputs, trained checkpoints, predictions, metrics, plots, and post hoc analyses only",
+  "original_archive": "Models After Run-20260824T080902Z-1-001.zip",
+  "notebooks_from_original_archive": 12,
+  "posthoc_analysis_notebooks": 1,
+  "saved_run_bundles": 11,
+  "exported_artifacts": 323,
+  "exported_bytes": 1293952750,
+  "checkpoint_files": 13,
+  "checkpoint_bytes": 1260525170,
+  "resnet50_saved_output_bundle_available": false,
+  "original_archive_duplicated_in_repository": false,
+  "source_datasets_or_images_exported": false,
+  "manuscript_or_personal_writing_exported": false,
+  "excluded_categories": [
+    "manuscripts/LaTeX",
+    "paper drafts and personal writing",
+    "reference papers",
+    "dataset images and original dataset bundles",
+    "reviewer letters and responses",
+    "document-generation/manuscript-editing scripts containing paper text",
+    "bibliography-order checks",
+    "temporary caches",
+    "redundant outer/inner ZIP archives"
+  ]
+}

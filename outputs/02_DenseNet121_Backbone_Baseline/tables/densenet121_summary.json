@@ -1,0 +1,15 @@
+{
+  "model": "DenseNet121",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.639305304516465,
+  "micro_f1": 0.6775300171526587,
+  "mAP": 0.7248207757675837,
+  "macro_auroc": 0.9340105697679039,
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 9,
+  "rare_to_normal_error_rate": 0.28125,
+  "unknown_forced_into_known_rate": 0.71875,
+  "best_epoch": 22,
+  "best_validation_mAP": 0.7158356582373026
+}

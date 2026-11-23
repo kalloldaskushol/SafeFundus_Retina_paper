@@ -1,0 +1,22 @@
+{
+  "original_artifact_hashes_checked": 323,
+  "research_notebooks": 13,
+  "trained_checkpoints": 13,
+  "original_saved_numeric_audit_checks": 192,
+  "original_saved_numeric_audit_passed": true,
+  "metric_examples_and_paired_bootstrap_unit_checks_passed": true,
+  "fusion_endpoint_and_outcome_partition_checks_passed": true,
+  "analysis_archive_rebuilt_from_saved_outputs": true,
+  "reproduction_smoke_bootstrap_replicates": 200,
+  "reproduction_smoke_completed_with_plots": true,
+  "baseline_internal_tables_reproduced_byte_for_byte": true,
+  "baseline_external_tables_reproduced_byte_for_byte": true,
+  "external_classification_recheck_reproduced_byte_for_byte": true,
+  "per_seed_counts_reproduced_byte_for_byte": true,
+  "published_bootstrap_outputs_are_original_10000_replicate_outputs": true,
+  "training_or_gpu_inference_executed_during_publication": false,
+  "manuscript_and_dataset_files_staged": false,
+  "checkpoint_files_tracked_with_git_lfs": true,
+  "credential_pattern_scan_passed": true,
+  "python_syntax_checks_passed": true
+}

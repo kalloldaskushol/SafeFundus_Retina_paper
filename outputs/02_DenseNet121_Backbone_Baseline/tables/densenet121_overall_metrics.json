@@ -1,0 +1,9 @@
+{
+  "model": "DenseNet121",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.639305304516465,
+  "micro_f1": 0.6775300171526587,
+  "mAP": 0.7248207757675837,
+  "macro_auroc": 0.9340105697679039
+}

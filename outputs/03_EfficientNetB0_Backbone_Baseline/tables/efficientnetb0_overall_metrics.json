@@ -1,0 +1,9 @@
+{
+  "model": "EfficientNet-B0",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6504160977381579,
+  "micro_f1": 0.6522462562396006,
+  "mAP": 0.7037115272197548,
+  "macro_auroc": 0.9348044028987615
+}

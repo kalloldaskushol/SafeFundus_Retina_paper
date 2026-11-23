@@ -1,0 +1,4 @@
+Split,CSV_Rows,WNL_Mismatch_Count,Group_Normal,Group_Known_Only,Group_Unknown_Only,Group_Mixed_Known_Unknown,Group_Contains_Intermediate
+Training_set,509,0,157,153,146,44,9
+Validation_set,177,0,53,58,50,12,4
+Test_set,174,0,52,46,54,19,3

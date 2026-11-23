@@ -1,0 +1,10 @@
+seed,Metric,Estimate,CI95_Lower,CI95_Upper
+42,familiar_false_referral_rate,0.19387755102040816,0.12244897959183673,0.2755102040816326
+42,unknown_referral_sensitivity,0.5,0.36,0.64
+42,rare_to_normal_error_rate,0.06,0.0,0.14
+123,familiar_false_referral_rate,0.19387755102040816,0.12244897959183673,0.2755102040816326
+123,unknown_referral_sensitivity,0.48,0.34,0.62
+123,rare_to_normal_error_rate,0.04,0.0,0.1
+2026,familiar_false_referral_rate,0.2653061224489796,0.1836734693877551,0.35714285714285715
+2026,unknown_referral_sensitivity,0.56,0.42,0.7
+2026,rare_to_normal_error_rate,0.02,0.0,0.06

@@ -1,0 +1,4 @@
+Split,CSV_Rows,Image_Files,Exact_ID_Matches,Label_IDs_Without_Image,Images_Without_Label_ID,Extension_Counts
+Training_set,509,509,507,"89,216","79,222","{"".JPG"": 52, "".jpg"": 457}"
+Validation_set,177,177,177,,,"{"".JPG"": 21, "".jpg"": 156}"
+Test_set,174,174,170,"151,191,405,490","251,291,404,489","{"".JPG"": 21, "".jpg"": 153}"

@@ -1,0 +1,19 @@
+{
+  "model": "EfficientNet-B0",
+  "seed": 42,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6504160977381579,
+  "micro_f1": 0.6522462562396006,
+  "mAP": 0.7037115272197548,
+  "macro_auroc": 0.9348044028987615,
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 10,
+  "rare_to_normal_error_rate": 0.3125,
+  "unknown_forced_into_known_rate": 0.6875,
+  "best_history_epoch": 29,
+  "train_mAP_at_best_val": 0.9885571498812705,
+  "val_mAP_at_best_val": 0.6733732269282898,
+  "mAP_generalization_gap": 0.3151839229529807,
+  "best_epoch": 29,
+  "best_validation_mAP": 0.6733732269282898
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 123,
+  "best_epoch": 17,
+  "training_minutes": 74.91436032056808,
+  "best_validation_mAP": 0.7061775940426188,
+  "train_mAP_at_best_val": 0.9365896004242364,
+  "mAP_generalization_gap": 0.23041200638161763,
+  "familiar_test_images": 571,
+  "macro_f1": 0.6586684364182195,
+  "micro_f1": 0.6820908311910883,
+  "mAP": 0.7290263540601032,
+  "macro_auroc": 0.9411729911468357,
+  "unknown_only_test_images": 32,
+  "rare_to_normal_count": 6,
+  "rare_to_normal_error_rate": 0.1875,
+  "unknown_forced_into_known_rate": 0.8125
+}

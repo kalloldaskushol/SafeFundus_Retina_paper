@@ -1,0 +1,142 @@
+{
+  "project": "SafeFundus",
+  "external_dataset": "RFMiD 2.0",
+  "notebook_version": "10B fixed mixed-case extension + exact-ID alignment",
+  "primary_external_split": "official Test_set restricted to exact CSV-ID/image-ID matches",
+  "external_training_or_validation_used_for_tuning": false,
+  "external_test_used_for_tuning": false,
+  "classifier": "Swin-Tiny + ASL + explicit NORMAL",
+  "open_set_method": "Normal-Aware JointEnergy + 20-pass MC Dropout",
+  "fusion": "0.5 JointEnergy + 0.5 MC Dropout",
+  "calibration_and_referral_threshold": "frozen from internal RFMiD",
+  "rfmid2_mapping": "WNL -> NORMAL",
+  "known_diseases": [
+    "DR",
+    "MH",
+    "ODC",
+    "TSLN",
+    "DN",
+    "MYA",
+    "ARMD",
+    "BRVO",
+    "ODP",
+    "ODE",
+    "LS",
+    "RS",
+    "CSR",
+    "CRS"
+  ],
+  "intermediate_classes": [
+    "CRVO",
+    "RPEC"
+  ],
+  "external_unknown_classes": [
+    "AH",
+    "AION",
+    "CB",
+    "CF",
+    "CL",
+    "CME",
+    "CNV",
+    "CRAO",
+    "CWS",
+    "CSC",
+    "EDN",
+    "ERM",
+    "GRT",
+    "HPED",
+    "HR",
+    "MCA",
+    "ME",
+    "MHL",
+    "MS",
+    "ON",
+    "OPDM",
+    "PRH",
+    "RD",
+    "RHL",
+    "RTR",
+    "RP",
+    "RT",
+    "SOFE",
+    "ST",
+    "TD",
+    "TV",
+    "VS",
+    "HTN",
+    "IIH"
+  ],
+  "test_csv_rows": 174,
+  "test_image_files": 174,
+  "test_evaluable_exact_matches": 170,
+  "test_label_ids_without_exact_image": [
+    "151",
+    "191",
+    "405",
+    "490"
+  ],
+  "test_image_ids_without_label_row": [
+    "251",
+    "291",
+    "404",
+    "489"
+  ],
+  "test_extension_counts": {
+    ".JPG": 21,
+    ".jpg": 153
+  },
+  "image_matching_policy": "Use actual directory inventory; extension matching is case-insensitive; require exact numeric image stem to CSV ID; unmatched pairs are reported and excluded; no manual remapping.",
+  "raw_test_group_counts": {
+    "Unknown_Only": 54,
+    "Normal": 52,
+    "Known_Only": 46,
+    "Mixed_Known_Unknown": 19,
+    "Contains_Intermediate": 3
+  },
+  "evaluable_test_group_counts": {
+    "Normal": 52,
+    "Unknown_Only": 50,
+    "Known_Only": 46,
+    "Mixed_Known_Unknown": 19,
+    "Contains_Intermediate": 3
+  },
+  "csv_audit": {
+    "train": {
+      "encoding": "cp1252",
+      "dropped_unnamed": {
+        "Unnamed: 52": {
+          "non_null_count": 11,
+          "unique_values": [
+            1.0,
+            2.0
+          ]
+        }
+      }
+    },
+    "validation": {
+      "encoding": "cp1252",
+      "dropped_unnamed": {
+        "Unnamed: 52": {
+          "non_null_count": 8,
+          "unique_values": [
+            1.0,
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    "test": {
+      "encoding": "cp1252",
+      "dropped_unnamed": {
+        "Unnamed: 52": {
+          "non_null_count": 9,
+          "unique_values": [
+            1.0,
+            2.0
+          ]
+        }
+      }
+    }
+  }
+}

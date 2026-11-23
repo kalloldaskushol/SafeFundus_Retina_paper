@@ -1,0 +1,46 @@
+{
+  "project": "SafeFundus",
+  "classifier": "Swin-Tiny + ASL + explicit NORMAL output",
+  "model_classes": [
+    "NORMAL",
+    "DR",
+    "MH",
+    "ODC",
+    "TSLN",
+    "DN",
+    "MYA",
+    "ARMD",
+    "BRVO",
+    "ODP",
+    "ODE",
+    "LS",
+    "RS",
+    "CSR",
+    "CRS"
+  ],
+  "known_diseases": [
+    "DR",
+    "MH",
+    "ODC",
+    "TSLN",
+    "DN",
+    "MYA",
+    "ARMD",
+    "BRVO",
+    "ODP",
+    "ODE",
+    "LS",
+    "RS",
+    "CSR",
+    "CRS"
+  ],
+  "normal_target_definition": "1 only for RFMiD images with no disease labels; otherwise 0",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "model_selection_metric": "14-disease validation mAP",
+  "unknown_test_used_for_model_selection": false,
+  "next_method": "Normal-aware JointEnergy using all 15 logits"
+}

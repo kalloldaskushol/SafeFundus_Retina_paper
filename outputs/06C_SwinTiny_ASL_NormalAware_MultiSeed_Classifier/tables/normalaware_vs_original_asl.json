@@ -1,0 +1,7 @@
+{
+  "original_14output_ASL_val_mAP_mean": 0.7323,
+  "original_14output_ASL_val_mAP_sd": 0.006,
+  "normalaware_15output_ASL_val_mAP_mean": 0.7213631497063839,
+  "normalaware_15output_ASL_val_mAP_sd": 0.010359341188979986,
+  "normalaware_minus_original": -0.010936850293616018
+}

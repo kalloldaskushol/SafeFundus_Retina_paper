@@ -1,0 +1,31 @@
+{
+  "jointenergy_branch_parameters": {
+    "mu_normal": 2.8591421110873028,
+    "sd_normal": 1.6183733495258246,
+    "mu_disease": 6.370280926683161,
+    "sd_disease": 2.167428529625954
+  },
+  "jointenergy_final_validation_mean": -0.16267038350356763,
+  "jointenergy_final_validation_sd": 0.8170094912431403,
+  "fusion_alpha_jointenergy": 0.5,
+  "fusion_alpha_mc_dropout": 0.5,
+  "fusion_primary_threshold": 0.8438802308362783,
+  "temperature": 0.6272349213051259,
+  "calibrated_thresholds": {
+    "NORMAL": 0.31421509967440725,
+    "DR": 0.7144921474364514,
+    "MH": 0.926079092582791,
+    "ODC": 0.7942679241981598,
+    "TSLN": 0.594954234306662,
+    "DN": 0.8521439697687717,
+    "MYA": 0.7817048835552186,
+    "ARMD": 0.4364372382928981,
+    "BRVO": 0.5635627617071023,
+    "ODP": 0.7002550600518297,
+    "ODE": 0.4050457656933383,
+    "LS": 0.9407812652676412,
+    "RS": 0.5635627617071023,
+    "CSR": 0.5000000000000002,
+    "CRS": 0.8728514543527057
+  }
+}

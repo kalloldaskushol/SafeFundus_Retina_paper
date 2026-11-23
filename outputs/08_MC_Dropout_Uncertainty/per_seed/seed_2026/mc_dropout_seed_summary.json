@@ -1,0 +1,23 @@
+{
+  "seed": 2026,
+  "mc_passes": 20,
+  "validation_uncertainty_mean": 0.0011506900191307068,
+  "validation_uncertainty_sd": 0.0004246910393703729,
+  "primary_referral_threshold_U_N": 1.3358689546585083,
+  "actual_val_false_referral_rate": 0.1,
+  "familiar_test_false_referral_rate": 0.07880910683012259,
+  "normal_test_false_referral_rate": 0.0,
+  "known_only_test_false_referral_rate": 0.10297482837528604,
+  "unknown_referral_sensitivity": 0.375,
+  "mixed_referral_rate": 0.2916666666666667,
+  "intermediate_referral_rate": 0.46153846153846156,
+  "closedset_rare_to_normal_rate": 0.3125,
+  "post_referral_rare_to_normal_rate": 0.21875,
+  "post_referral_explicit_normal_false_reassurance": 0.1875,
+  "post_referral_forced_known_rate": 0.40625,
+  "unknown_auroc": 0.7043016637478108,
+  "unknown_aupr": 0.2027274719398226,
+  "fpr_at_95_tpr": 0.8178633975481612,
+  "entropy_unknown_auroc": 0.6335376532399298,
+  "entropy_unknown_aupr": 0.07843713023198942
+}

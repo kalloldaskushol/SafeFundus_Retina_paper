@@ -1,0 +1,17 @@
+{
+  "description": "Only the plot destination statements were adapted for the public repository; all numerical plotting logic is unchanged.",
+  "files": [
+    {
+      "repository_path": "analysis/make_compact_row_figure.py",
+      "source_sha256": "2ca032f85c14eb7ec489bc2f9ac881b7e6c0b04edbb6f3ac8cf2513742e035d1",
+      "published_sha256": "699dd263937b057ab49d7638179cbf4a09609630e7680ffc7c5c61ac0a51e18a"
+    },
+    {
+      "repository_path": "analysis/make_single_column_figure.py",
+      "source_sha256": "824d29fbf12c7eb433cb958ba2d73190caf76a4ae51d65ee3c7b8b3416ccc5fb",
+      "published_sha256": "b3bfeccb23e5835167e2a7022b69fd215e8f8fc9610065dcfe32957443bf6a4d"
+    }
+  ],
+  "old_statement": "DESTINATION = ROOT.parent / \"Revised Paper\" / \"figures\"",
+  "new_statement": "DESTINATION = ROOT / \"figures\""
+}

@@ -1,0 +1,6 @@
+{
+  "best_history_epoch": 29,
+  "train_mAP_at_best_val": 0.9885571498812705,
+  "val_mAP_at_best_val": 0.6733732269282898,
+  "mAP_generalization_gap": 0.3151839229529807
+}

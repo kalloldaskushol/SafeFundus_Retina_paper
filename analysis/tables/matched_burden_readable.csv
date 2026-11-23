@@ -1,0 +1,13 @@
+Nominal test burden (%),Method,Achieved familiar referral (%),Unknown referral (%),R2N (%)
+5.0,Standard JointEnergy,4.90 +/- 0.00,13.54 +/- 1.80,22.92 +/- 1.80
+5.0,Normal-Aware JointEnergy,4.90 +/- 0.00,19.79 +/- 3.61,19.79 +/- 3.61
+5.0,MC Dropout,4.90 +/- 0.00,19.79 +/- 10.05,21.88 +/- 3.12
+5.0,SafeFundus fusion,4.90 +/- 0.00,28.12 +/- 3.12,17.71 +/- 4.77
+10.0,Standard JointEnergy,9.98 +/- 0.00,18.75 +/- 8.27,20.83 +/- 4.77
+10.0,Normal-Aware JointEnergy,9.98 +/- 0.00,26.04 +/- 3.61,17.71 +/- 1.80
+10.0,MC Dropout,9.98 +/- 0.00,28.12 +/- 12.50,17.71 +/- 4.77
+10.0,SafeFundus fusion,9.98 +/- 0.00,47.92 +/- 3.61,13.54 +/- 3.61
+15.0,Standard JointEnergy,14.89 +/- 0.00,33.33 +/- 4.77,13.54 +/- 4.77
+15.0,Normal-Aware JointEnergy,14.89 +/- 0.00,39.58 +/- 6.51,14.58 +/- 3.61
+15.0,MC Dropout,14.89 +/- 0.00,42.71 +/- 1.80,15.62 +/- 3.12
+15.0,SafeFundus fusion,14.89 +/- 0.00,59.38 +/- 3.12,10.42 +/- 1.80

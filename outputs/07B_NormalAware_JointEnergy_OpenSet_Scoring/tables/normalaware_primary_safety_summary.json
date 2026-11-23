@@ -1,0 +1,11 @@
+{
+  "closedset_rare_to_normal_rate": 0.2708333333333333,
+  "post_referral_rare_to_normal_rate": 0.17708333333333334,
+  "absolute_rare_to_normal_reduction": 0.09374999999999997,
+  "relative_rare_to_normal_reduction": 0.3461538461538461,
+  "mean_unknown_referral_sensitivity": 0.25,
+  "mean_familiar_false_referral_rate": 0.07997664915353182,
+  "mean_normal_false_referral_rate": 0.04975124378109452,
+  "mean_known_false_referral_rate": 0.08924485125858124,
+  "mean_explicit_normal_false_reassurance": 0.11458333333333333
+}

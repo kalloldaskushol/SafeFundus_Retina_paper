@@ -1,0 +1,14 @@
+{
+  "project": "SafeFundus",
+  "classifier": "Swin-Tiny + ASL + explicit NORMAL output",
+  "primary_open_set_score": "Normal-Aware Dual-Mode JointEnergy",
+  "normal_evidence": "softplus(NORMAL logit)",
+  "disease_evidence": "sum softplus(14 disease logits)",
+  "normal_branch_normalization": "validation Normal subgroup only",
+  "disease_branch_normalization": "validation Known_Only subgroup only",
+  "familiar_evidence": "max(z_normal, z_disease)",
+  "unknownness": "-max(z_normal, z_disease)",
+  "primary_referral_threshold": "90th percentile of familiar validation unknownness",
+  "primary_target_validation_false_referral_rate": 0.1,
+  "unknown_test_used_for_tuning": false
+}

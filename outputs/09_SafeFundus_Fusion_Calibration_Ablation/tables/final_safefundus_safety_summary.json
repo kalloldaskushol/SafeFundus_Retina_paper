@@ -1,0 +1,12 @@
+{
+  "closedset_rare_to_normal_rate": 0.2708333333333333,
+  "fusion_post_referral_rare_to_normal_rate": 0.13541666666666666,
+  "absolute_reduction": 0.13541666666666666,
+  "relative_reduction": 0.5,
+  "fusion_unknown_referral_sensitivity": 0.4791666666666667,
+  "fusion_familiar_false_referral_rate": 0.09457092819614711,
+  "fusion_normal_false_referral_rate": 0.017412935323383085,
+  "fusion_known_only_false_referral_rate": 0.11823035850495804,
+  "fusion_unknown_auroc": 0.7821438995913601,
+  "fusion_unknown_aupr": 0.21918033360616787
+}

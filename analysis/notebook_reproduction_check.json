@@ -1,0 +1,89 @@
+{
+  "notebook": "SafeFundus_Reviewer_Analyses_Kaggle.ipynb",
+  "environment": "Local Python; not a Kaggle runtime execution",
+  "bootstrap_replicates": 10000,
+  "analysis_code_executed": true,
+  "all_table_comparisons_passed": true,
+  "table_checks": [
+    {
+      "table": "external_classification_recheck.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "fusion_weights_all_confidence_intervals.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "fusion_weights_by_seed.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "fusion_weights_mean_sd_ci.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "fusion_weights_readable.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "matched_burden_all_confidence_intervals.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "matched_burden_by_seed.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "matched_burden_mean_sd_ci.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "matched_burden_readable.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "paired_bootstrap_confidence_intervals.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "paired_method_differences_matched_burden.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "paired_method_differences_original_operating_points.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "per_seed_case_counts.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "referral_curves_by_seed.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "referral_overlap.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "table_II_reproduced_by_seed.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "table_II_reproduced_mean_sd.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "table_III_reproduced_by_seed.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "table_III_reproduced_mean_sd.csv",
+      "byte_identical": true
+    },
+    {
+      "table": "verification_audit.csv",
+      "byte_identical": true
+    }
+  ]
+}
